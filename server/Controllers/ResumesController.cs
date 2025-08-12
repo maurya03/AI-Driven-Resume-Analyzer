@@ -2,6 +2,8 @@ using Microsoft.AspNetCore.Mvc;
 using ResumeAI.Data;
 using ResumeAI.Models;
 using ResumeAI.Services;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace ResumeAI.Controllers;
 [ApiController]
