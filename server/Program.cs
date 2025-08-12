@@ -21,7 +21,7 @@ builder.Services.AddCors(opt => opt.AddPolicy("AllowAll", p => p.AllowAnyOrigin(
 
 var app = builder.Build();
 app.UseCors("AllowAll");
-
+app.MapGet("/", () => "Resume AI API is running");
 if (app.Environment.IsDevelopment()) { app.UseSwagger(); app.UseSwaggerUI(); }
 app.UseHttpsRedirection();
 app.UseAuthorization();
