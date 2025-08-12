@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "G:\\F\\Ai Driven Resume Analyzer web app\\resume-ai-complete-with-deploy-and-script\\server\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\F\\Ai Driven Resume Analyzer web app\\resume-ai-complete-with-deploy-and-script\\server\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\F\\Ai Driven Resume Analyzer web app\\resume-ai-complete-with-deploy-and-script\\server\\ResumeAI.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ResumeAI.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\F\\Ai Driven Resume Analyzer web app\\resume-ai-complete-with-deploy-and-script\\server\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "G:\\F\\Ai Driven Resume Analyzer web app\\resume-ai-complete-with-deploy-and-script\\server\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T10:46:43.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ResumeAI.csproj",
               "DocumentMoniker": "G:\\F\\Ai Driven Resume Analyzer web app\\resume-ai-complete-with-deploy-and-script\\server\\ResumeAI.csproj",
               "RelativeDocumentMoniker": "ResumeAI.csproj",
               "ToolTip": "G:\\F\\Ai Driven Resume Analyzer web app\\resume-ai-complete-with-deploy-and-script\\server\\ResumeAI.csproj",
               "RelativeToolTip": "ResumeAI.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-08-12T09:57:16.389Z",
               "EditorCaption": ""
