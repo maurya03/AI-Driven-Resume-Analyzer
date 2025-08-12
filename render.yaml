@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: resume-ai-backend
+    env: docker
+    plan: free
+    dockerfilePath: ./server/Dockerfile
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+databases:
+  - name: resume-ai-db
+    plan: free

@@ -1,0 +1,30 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: resumeuser
+      POSTGRES_PASSWORD: resumepass
+      POSTGRES_DB: resumedb
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - '5432:5432'
+    command: ["postgres", "-c", "shared_preload_libraries=pgvector"]
+  server:
+    build: ./server
+    depends_on:
+      - postgres
+    environment:
+      - ConnectionStrings__Postgres=Host=postgres;Port=5432;Database=resumedb;Username=resumeuser;Password=resumepass
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    ports:
+      - '5000:80'
+  nginx:
+    image: nginx:alpine
+    volumes:
+      - ./client/dist:/usr/share/nginx/html:ro
+    ports:
+      - '3000:80'
+volumes:
+  pgdata:
